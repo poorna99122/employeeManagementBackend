@@ -18,9 +18,9 @@ public class AtmController {
 	private AtmRepository atmRepository;
 	
 	
+	//Here we are going to create REST APIs
 	
-	
-	//get all Atms
+	//get allAtms
 	@GetMapping("/atms")
 	public List<Atm> getAllEmployees(){
 		return atmRepository.findAll();
