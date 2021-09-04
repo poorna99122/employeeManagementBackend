@@ -23,7 +23,11 @@ public class UsersController {
 	public List<Users> getAllusers(){
 		return usersRepository.findAll();
 		
+		
 	}
+	
+	
+	
 	
 	
 
